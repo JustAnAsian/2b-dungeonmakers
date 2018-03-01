@@ -4,7 +4,72 @@
 <meta charset="UTF-8">
 <title>Web App</title>
 <!--Stylesheet-->
-<link rel="stylesheet" type="text/css" href="webapp.css">
+<link rel="stylesheet" title="Disabled for Preview-in-Browser: webapp.css" type="text/css">
+<style type="text/css">
+
+/* CSS Document */
+/*made background image, changed font size and color, aligned text*/
+body {
+	background-image: url("images/forests.jpg");
+	font-family:"Comic Sans MS", cursive, sans-serif;
+	font-size: 36px;
+	color: blue;
+	text-align: center;
+}
+/*changed font*/
+p1 {
+font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace
+}
+/*hid run button*/
+#run {
+display: none;	
+}
+/*hid fight button*/
+#fight {
+display: none;	
+}
+/*hid deer image*/
+#deer {
+display: none;	
+}
+/*hid hide image*/
+#hide {
+display: none;	
+}
+/*hid shield button*/
+#shield {
+	display: none;
+}
+/*hid health bar*/
+#health_bar {
+display: none;	
+}
+/*hid ogre miniboss*/
+#ogre {
+display: none;	
+}
+/*hid second run button*/
+#run2 {
+	display: none;
+}
+/*hid player bar*/
+#player_bar {
+	display: none;
+}
+/*Changed height of start btn*/
+#startBtn {
+	height: 100px;
+}
+/*hid fight 2*/
+#fight2 {
+display: none;	
+}
+/*hid eat*/
+#eat {
+display: none;
+}
+
+</style>
 <!--JavaScript-->
 <script type="text/javascript" src="webapp.js"></script>
 <!--Jquery-->
@@ -24,15 +89,15 @@
 <!-- images for health bar --> 
 <p class="tooltip"><progress class="tooltiptext" id="health_bar" value="6" max="6"></progress>
 <img src="images/startbtn.png" alt="CLICK" id="startBtn"></p>
-<!-- images for fight run hide and sheild and house-->
+<!-- images for fight run hide and sheild -->
 <p><img src="images/Claw_marks.png" alt="CLICK" id="fight"><br>
 <img src="images/run.png" alt="CLICK" id="run">
 <img src="images/hiding.jpg" alt="Click" id="hide">
 <img src="images/shield.png" alt="Click" id="shield">
 <img src="images/Run 2.png" alt="Click" id="run2">
 <img src="images/fight2.jpg" alt="Click" id="fight2">
-<img src="images/eat.jpg" alt="Click" id="eat">
-<img src="images/house.jpg" alt="Click" id="house"></p>
+<img src="images/eat.jpg" alt="Click" id="eat"></p>
+
 <p><progress id="player_bar" value="7" max="7"></progress></p>
 
 <p>&nbsp;</p>
