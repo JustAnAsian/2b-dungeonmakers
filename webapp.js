@@ -64,7 +64,7 @@ function neg_health() {
 			//hiding and showin button
 			if( x == 0 ) {
 				document.getElementById("deer").style.display = "none";				
-				document.getElementById("story").innerHTML = "you beat the deer nice work<p>lets go home</p>";
+				document.getElementById("story").innerHTML = "you beat the deer, nice work<p>let's go home</p>";
 				document.getElementById("fight").style.display = "none";
 				document.getElementById("shield").style.display = "none";
 				document.getElementById("run2").style.display = "inline";
