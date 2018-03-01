@@ -2,10 +2,10 @@
 /* CSS Document */
 /*made background image, changed font size and color, aligned text*/
 body {
-	background-image: url("images/forests.jpg");
+	background-image: url("images/forest2.jpg");
 	font-family:"Comic Sans MS", cursive, sans-serif;
 	font-size: 36px;
-	color: blue;
+	color: red;
 	text-align: center;
 }
 /*changed font*/
@@ -59,4 +59,8 @@ display: none;
 /*hid eat*/
 #eat {
 display: none;
+}
+/*hid house*/
+#house {
+	display: none;
 }
