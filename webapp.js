@@ -32,7 +32,7 @@ function hiding() {
 			//document.getElementById("forests").style.display ="inline";
 			document.getElementById("hide").style.display ="inline";
 			//story growth
-			document.getElementById("story").innerHTML = "<p> go explore the forest or stay in the cave until nightfall </p>";
+			document.getElementById("story").innerHTML = "<p> You decide to hide in a cave. You see the dragon leave. go explore the forest or stay in the cave until nightfall </p>";
 };
 function fight_deer() {
 			// show hide button
