@@ -29,7 +29,7 @@ window.onload = function() {
 };
 function hiding() {
 			//show buttons
-			//document.getElementById("forests").style.display ="inline";
+			document.getElementById("forests").style.display ="inline";
 			document.getElementById("hide").style.display ="inline";
 			//story growth
 			document.getElementById("story").innerHTML = "<p> go explore the forest or stay in the cave until nightfall </p>";
@@ -45,7 +45,8 @@ function fight_deer() {
 			//fighting deer
 }
 function heal_up(){
- var y = y + 7;
+ y = y + 7;
+ document.getElementById("player_bar").value = y;
 }
 function neg_health() {
 			document.getElementById("player_bar").style.display = "inline";
