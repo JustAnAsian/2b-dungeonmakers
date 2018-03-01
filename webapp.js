@@ -13,16 +13,26 @@ window.onload = function() {
 	document.getElementById("fight").addEventListener("click", function() {
 		fight_deer();
 	});
-				document.getElementById("fight").addEventListener("click", function() {
+	document.getElementById("fight").addEventListener("click", function() {
 		neg_health();
 	});
-				document.getElementById("run2").addEventListener("click", function() {
+	document.getElementById("run2").addEventListener("click", function() {
 		encounter();
 	});
-				document.getElementById("eat").addEventListener("click", function() { 
-				heal_up();
+	document.getElementById("eat").addEventListener("click", function() { 
+		heal_up();
 	});
-
+	document.getElementById("hide").addEventListener("click",function(){ 
+		hiding();
+	});
+	
+};
+function hiding() {
+			//show buttons
+			//document.getElementById("forests").style.display ="inline";
+			document.getElementById("hide").style.display ="inline";
+			//story growth
+			document.getElementById("story").innerHTML = "<p> go explore the forest or stay in the cave until nightfall </p>";
 };
 function fight_deer() {
 			// show hide button
