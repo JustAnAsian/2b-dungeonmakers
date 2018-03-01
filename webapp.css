@@ -3,6 +3,7 @@
 /*made background image, changed font size and color, aligned text*/
 body {
 	background-image: url("images/forests.jpg");
+	font-family:"Comic Sans MS", cursive, sans-serif;
 	font-size: 36px;
 	color: blue;
 	text-align: center;
@@ -59,4 +60,3 @@ display: none;
 #eat {
 display: none;
 }
-	
